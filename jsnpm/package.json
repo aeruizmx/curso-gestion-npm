@@ -14,9 +14,11 @@
   "author": "Andres Ruiz <andres87aldos@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "date-fns": "^2.16.1"
+    "date-fns": "^2.16.1",
+    "webpack": "^5.11.1"
   },
   "dependencies": {
+    "json-server": "^0.15.0",
     "moment": "^2.29.1"
   },
   "optionalDependencies": {
