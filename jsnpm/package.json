@@ -12,5 +12,14 @@
     "package"
   ],
   "author": "Andres Ruiz <andres87aldos@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "date-fns": "^2.16.1"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "optionalDependencies": {
+    "eslint": "^7.16.0"
+  }
 }
