@@ -40,3 +40,15 @@ Instalar paquete de forma opcional
 
 **npm fund**
 Nos da la informacion sobre financiamiento de paquetes
+
+**npm install paquete --dry-run**
+Simula la instalación para ver información del paquete
+
+**npm install paquete -f**
+Instalar paquete forzando desde la ultima versión
+
+**npm install**
+Reinstalación completa del contenido de package.json
+
+npm install paquete@0.15.0
+Instalar un paquete con una versión especifica
