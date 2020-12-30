@@ -1,8 +1,10 @@
 # curso-gestion-npm
 
-git init - iniciar repositorio git
+**git init** 
+Iniciar repositorio git
 
-npm init - crear el archivo package.json
+**npm init**
+Crear el archivo package.json
 
 * package name - nombre del paquete
 * version
@@ -12,8 +14,29 @@ npm init - crear el archivo package.json
 * author - persona que contruye el proyecto
 * license - licencia
 
-npm init -y - Configurar un package rapido
+**npm init -y** 
+Configurar un package rapido
 
-npm set init.author.email "correo" - asignar correo al proyecto
+**npm set init.author.email "correo"** 
+Asignar correo default
 
-npm set init.author.name "nombre" - asignar nombre al proyecto
+**npm set init.author.name "nombre"** 
+Asignar nombre default
+
+**npm install paquete | npm install paquete --save | npm install paquete -S**
+Instalar paquete como una dependencia
+
+**npm install paquete --save-dev | npm install paquete -D**
+Instalar paquete como una dependencia de desarrollo
+
+**npm install paquete -g**
+Instalar un paquete de forma global, revisar permisos, usar sudo cuando se ocupe
+
+**npm list -g --depth 0**
+Buscar paquetes instalados de forma global
+
+**npm install paquete -O**
+Instalar paquete de forma opcional
+
+**npm fund**
+Nos da la informacion sobre financiamiento de paquetes
