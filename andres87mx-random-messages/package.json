@@ -1,7 +1,7 @@
 {
-  "name": "random-messages",
+  "name": "andres87mx-random-messages",
   "version": "1.0.0",
-  "description": "random de mensajes",
+  "description": "I don't know what to write for the first commit.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,7 @@
   "author": "Andres Ruiz <andres87aldos@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg" : "./bin/global.js"
+    "aruiz-random-msg": "./bin/global.js"
   },
   "preferGlobal": true
 }

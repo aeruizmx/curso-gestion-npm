@@ -1,6 +1,6 @@
 # curso-gestion-npm
 
-**git init** 
+**git init**
 Iniciar repositorio git
 
 **npm init**
@@ -14,13 +14,13 @@ Crear el archivo package.json
 * author - persona que contruye el proyecto
 * license - licencia
 
-**npm init -y** 
+**npm init -y**
 Configurar un package rapido
 
-**npm set init.author.email "correo"** 
+**npm set init.author.email "correo"**
 Asignar correo default
 
-**npm set init.author.name "nombre"** 
+**npm set init.author.name "nombre"**
 Asignar nombre default
 
 **npm install paquete | npm install paquete --save | npm install paquete -S**
@@ -73,3 +73,12 @@ Elimina paquete dentro de node_modules y package.json
 
 **npm uninstall paquete --no-save**
 Eliminar paquete en node_modules sin eliminar del package.json
+
+**sudo npm link**
+Instalar paquete en el equipo, debe situarse en el paquete hecho
+
+**sudo npm install -g /Users/aruiz/Documents/Platzi/curso-gestion-dependencias-npm/random-messages**
+Actualizar paquete
+
+**npm publish**
+Publicar paquete
